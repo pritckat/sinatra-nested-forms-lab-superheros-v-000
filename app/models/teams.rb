@@ -4,8 +4,8 @@ class Team
   @@all = []
 
   def initialize(args)
-    @name = args[0]
-    @motto = args[1]
+    @name = args[:name]
+    @motto = args[:motto]
     @@all << self
   end
 
